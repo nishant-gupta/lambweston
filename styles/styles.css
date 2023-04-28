@@ -256,6 +256,16 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+  width: 92vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 36px 0 75px;
+}
+
+main .section.highlight div {
+  margin: 0 auto;
+  max-width: 862px;
+  width: 100%;
 }
 
 main .section.download {
@@ -265,7 +275,7 @@ main .section.download {
   border-bottom: 68px solid #093C61;
   padding: 50px 40px 10px;
   width: 92vw;
-  max-width: 1200px;
+  max-width: 1120px;
   margin: -55px auto 0;
 }
 

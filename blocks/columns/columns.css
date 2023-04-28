@@ -19,6 +19,12 @@
   display: block;
 }
 
+.columns.card > div > div:first-child {
+  width: 124px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
 .columns.card > div > div > h2 {
   /* font-family: 'VAG Rounded W01'; */
   font-weight: 300;
@@ -43,7 +49,7 @@
   }
 
   .columns > div > div {
-    flex: 1;
+    /* flex: 1; */
     order: unset;
   }
 }
