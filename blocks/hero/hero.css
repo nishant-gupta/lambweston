@@ -10,8 +10,11 @@ main .hero-container {
   
 main .hero {
   position: relative;
-  padding: 32px;
+  padding: 0px;
   min-height: 300px;
+  height: 800px;
+  max-width: 1600px;
+  /* overflow: hidden; */
 }
 
 main .hero h1 {
@@ -22,7 +25,6 @@ main .hero h1 {
 }
 
 main .hero picture {
-  position: absolute;
   z-index: -1;
   top: 0;
   left: 0;
